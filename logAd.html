@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #000, #222);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+         display: flex;
+         justify-content: space-between;
+         padding: 20px;
+         background: #000;
+        }
+
+        header h1 {
+        color: #00d4ff;
+        }
+
+        
+        .container {
+            background: #00d4ff;
+            padding: 25px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            background: linear-gradient(to left, #000, #222);
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <h2>Admin Portal</h2>
+    <form>
+        <label for="fullname">Username</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <label for="fullname">Password</label>
+        <input type="Password" id="fullname" name="fullname" placeholder="Enter your Password" required>
+
+    </form>
+    <form action="admin.html">
+        <button>Log In</button>
+        </form>
+    <form action="log.html">
+        <button>User Portal</button>
+        </form>
+</div>
+</body>
+</html>
