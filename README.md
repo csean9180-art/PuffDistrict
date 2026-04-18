@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #000, #222);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+         display: flex;
+         justify-content: space-between;
+         padding: 20px;
+         background: #000;
+        }
+
+        header h1 {
+        color: #00d4ff;
+        }
+
+        
+        .container {
+            background: #00d4ff;
+            padding: 25px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            background: linear-gradient(to left, #000, #222);
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <h2>User Information</h2>
+    <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+
+    </form>
+    <form action="vapeshop.html">
+        <button>Register</button>
+        </form>
+        <form action="logAd.html">
+        <button>Admin Portal</button>
+        </form>
+</div>
+</body>
+</html>
